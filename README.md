@@ -2,7 +2,7 @@
 
 ## Authors
 
-- [@toughnut](https://github.com/namandalsania)
+- [@Naman](https://github.com/namandalsania)
 
 ## Business problem
 
