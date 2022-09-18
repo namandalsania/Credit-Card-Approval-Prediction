@@ -2,7 +2,8 @@
 
 ## Authors
 
-- [@Naman](https://github.com/namandalsania)
+- [@Naman Dalsania](https://github.com/namandalsania)
+- [@Devang Punatar](https://github.com/splend9)
 
 ## Aim
 
