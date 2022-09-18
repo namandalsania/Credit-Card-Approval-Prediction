@@ -2,7 +2,7 @@
 
 ## Authors
 
-- [@semasuka](https://www.github.com/semasuka)
+- [@toughnut](https://github.com/namandalsania)
 
 ## Business problem
 
