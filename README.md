@@ -7,7 +7,7 @@
 
 ## Aim
 
-This app predicts if an applicant will be approved for a credit card or not. Each time there is a hard enquiry your credit score is affected negatively. This app predict the probability of being approved without affecting your credit score. This app can be used by applicant who wants to find out if they will be approved for a credit card without affecting their credit score.
+This application predicts whether a credit card applicant will be accepted or denied. Each time there is a hard query your credit score is impacted adversely. This application predicts your likelihood of approval without altering your credit score. Applicants may use this app to see if they will be accepted for a credit card without damaging their credit score.
 
 ## Data source
 
