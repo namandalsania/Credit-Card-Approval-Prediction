@@ -1,4 +1,4 @@
-![banner](assets/Credit_card_approval_banner.png)
+![banner](assets/Credit_card_approval_banner.jpeg)
 
 ## Authors
 
