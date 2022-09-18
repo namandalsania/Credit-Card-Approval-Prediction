@@ -1,0 +1,5 @@
+.Credit_approval_env/
+.DS_Store
+.ipynb_checkpoints/
+saved_models/
+saved_models_final/
