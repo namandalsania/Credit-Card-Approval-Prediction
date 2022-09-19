@@ -19,9 +19,9 @@ from streamlit_lottie import st_lottie_spinner
 
 
 
-train_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/train.csv')
+train_original = pd.read_csv('https://raw.githubusercontent.com/namandalsania/Credit-Card-Approval-Prediction/master/datasets/train.csv')
 
-test_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/test.csv')
+test_original = pd.read_csv('https://raw.githubusercontent.com/namandalsania/Credit-Card-Approval-Prediction/master/datasets/test.csv')
 
 full_data = pd.concat([train_original, test_original], axis=0)
 
@@ -39,7 +39,6 @@ train_copy = train_original.copy()
 test_copy = test_original.copy()
 
 
-
 def value_cnt_norm_cal(df,feature):
     '''
     Function to calculate the count of each value in a feature and normalize it
@@ -49,7 +48,6 @@ def value_cnt_norm_cal(df,feature):
     ftr_value_cnt_concat = pd.concat([ftr_value_cnt, ftr_value_cnt_norm], axis=1)
     ftr_value_cnt_concat.columns = ['Count', 'Frequency (%)']
     return ftr_value_cnt_concat
-
 
 
 class OutlierRemover(BaseEstimator, TransformerMixin):
@@ -70,6 +68,7 @@ class OutlierRemover(BaseEstimator, TransformerMixin):
         else:
             print("One or more features are not in the dataframe")
             return df
+
 
 class DropFeatures(BaseEstimator,TransformerMixin):
     def __init__(self,feature_to_drop = ['Has a mobile phone','Children count','Job title','Account age']):
@@ -260,7 +259,6 @@ def full_pipeline(df):
 
 
 
-
 ############################# Streamlit ############################
 
 st.write("""
@@ -280,8 +278,6 @@ st.write("""
 ## Age
 """)
 input_age = np.negative(st.slider('Select your age', value=42, min_value=18, max_value=70, step=1) * 365.25)
-
-
 
 
 # Marital status input dropdown
@@ -433,7 +429,6 @@ train_copy_with_profile_to_pred_prep = full_pipeline(train_copy_with_profile_to_
 
 # Get the row with the ID = 0, and drop the ID, and target(placeholder) column
 profile_to_pred_prep = train_copy_with_profile_to_pred_prep[train_copy_with_profile_to_pred_prep['ID'] == 0].drop(columns=['ID','Is high risk'])
-
 
 
 
