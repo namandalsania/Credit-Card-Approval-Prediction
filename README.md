@@ -26,8 +26,7 @@ This application predicts whether a credit card applicant will be accepted or de
 - Streamlit (interface for the model)
 
 
-
-
+## Research Paper (IJRASET) - https://doi.org/10.22214/ijraset.2022.47369
 
 
 
