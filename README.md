@@ -31,7 +31,7 @@ This application predicts whether a credit card applicant will be accepted or de
 
 
 
-To get the code mail me at namandalsania12@gmail.com
+To view the code mail me at namandalsania12@gmail.com
 
 
 
