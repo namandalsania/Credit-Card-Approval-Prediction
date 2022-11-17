@@ -4,6 +4,7 @@
 
 - [@Naman Dalsania](https://github.com/namandalsania)
 - [@Devang Punatar](https://github.com/splend9)
+- [@Deep Kothari](https://github.com/dk2810)
 
 ## Aim
 
